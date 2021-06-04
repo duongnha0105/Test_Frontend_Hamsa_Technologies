@@ -1,0 +1,1 @@
+Nếu không hiển thị hình ảnh vui lòng xem lại URL

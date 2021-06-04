@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Gotham HTF';
+    src: url('../fonts/GothamHTF-Bold.eot');
+    src: url('../fonts/GothamHTF-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/GothamHTF-Bold.woff2') format('woff2'),
+        url('../fonts/GothamHTF-Bold.woff') format('woff'),
+        url('../fonts/GothamHTF-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-display: swap;
+}
+.container {
+	position: relative;
+	width: 100%;
+	max-width: 1200px;
+	padding: 30px 30px 50px;
+	float: none;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.align-items-center {
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+.text-center {
+	text-align: center;
+}
+.banner-menu {
+	background: url(../images/banner.jpg) no-repeat scroll left center;
+	background-size: cover;
+	overflow: hidden;
+	padding: 15vh 50px;
+	position: relative;
+	display: block;
+}
+.menu {
+    float: left;
+    width: 30%;
+    margin: 0 auto;
+}
+.menu ul {
+	padding-left: 0;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+	width: 100%;
+	margin: 10px auto;
+}
+.menu ul li a {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: 'Gotham HTF';
+	font-weight: 500;
+	text-decoration: none;
+	transition: all 350ms ease-in-out 0ms;
+}
+.menu ul li a:hover {
+	color: #fff;
+}
+.text-banner {
+    transform: translateY(50%);
+    top: 10%;
+    position: absolute;
+    float: right;
+    right: 0;
+    width: 70%;
+}
+.text-banner h2 {
+	text-transform: uppercase;
+	font-family: 'Gotham HTF';
+	font-size: 5em;
+}
+.inner-col {
+    position: relative;
+    display: block;
+    max-height: 720px;
+    overflow: hidden;
+}
+.col-left, .col-right {
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background: url(../images/left.jpg) no-repeat scroll left center;
+    padding: 30% 0;
+    background-size: cover;
+}
+.col-right {
+    background: url(../images/right.png) no-repeat scroll left center;
+}
+.col-left p, .col-right p {
+	text-transform: uppercase;
+	font-size: 1.5em;
+	color: #fff;
+	margin: 0 auto;
+	font-family: 'Gotham HTF';
+}
+.col-left p strong, .col-right p strong {
+    font-size: 2em;
+}
+.tags {
+	position: relative;
+	margin: 30px auto;
+}
+.tags p {
+	text-transform: uppercase;
+	font-family: 'Gotham HTF';
+}
+.col-images {
+	margin: 0 auto 30px;
+	width: 100%;
+	float: none;
+	overflow: hidden;
+}
+.col-images ul, .social-footer ul, .right-widget ul {
+	padding-left: 0;
+	margin: 0 auto;
+}
+.col-images ul li {
+	width: 20%;
+	margin: 0 auto;
+	float: left;
+	list-style: none;
+}
+.col-images ul li img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+.left-widget {
+    width: 70%;
+    float: left;
+    margin: 0 auto;
+}
+.right-widget {
+    width: 30%;
+    float: left;
+    margin: 0 auto;
+}
+.footer-widget h3 {
+	text-transform: uppercase;
+	font-family: 'Gotham HTF';
+	font-size: 1.4em;
+}
+.social-footer ul li {
+	list-style: none;
+	float: left;
+	margin: 10px;
+}
+.social-footer ul li a {
+	color: #333;
+}
+.social-footer ul li a i {
+	font-size: 1.8em;
+}
+.subscribe input[type="text"] {
+    padding: 10px 15px;
+    width: 60%;
+}
+.subscribe button {
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    border-color: #000;
+    font-family: 'Gotham HTF';
+}
+.right-widget ul li {
+	list-style: none;
+	margin: 10px auto;
+	width: 100%;
+}
+.right-widget ul li a, .footer-menu ul li a {
+	color: #000;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+.footer-menu {
+	width: 100%;
+	position: relative;
+	display: block;
+	margin: 30px auto;
+	overflow: hidden;
+	float: none;
+	max-width: 980px;
+}
+.footer-menu ul li {
+	list-style: none;
+	float: left;
+	margin: 0 auto;
+    border-right: 1px solid #000;
+    padding: 0 10px;
+}
+.footer-menu ul li:last-child {
+    border: none;
+}
